@@ -1,8 +1,14 @@
 require 'sinatra'
-require 'json'
-require './lib/takeoff_time'
-include TakeoffTime
+require 'sidekiq'
+require 'sidekiq/api'
+require 'sidekiq/web'
+require './workers/takeoff_worker'
 
-get '/takeoff_time' do
-  time.to_json
+class App < Sinatra::Base
+  # TODO: change to /post
+  get '/takeoff' do
+    TakeoffWorker.perform_async
+
+    status 202
+  end
 end
