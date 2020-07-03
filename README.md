@@ -1,6 +1,26 @@
-# TestZimad-api
+# TestZimad API
 
-git clone git@github.com:TheScrubsFan/TestZimad-api.git
-bundle install --path ~/.bundle --binstubs & git checkout bin/ & spring stop & spring binstub # for fish syntax
-ruby server.rb # available at http://localhost:4567/takeoff_time
+## Getting Started
+
+Run bundle (for fish syntax).
+
+
+```
+bundle install --path ~/.bundle --binstubs & git checkout bin/ & spring stop & spring binstub 
+```
+
+## Running
+
+Start server. Available at http://localhost:4567/takeoff_time
+
+
+```
+ruby server.rb 
+```
+
+## Authors
+
+* **Baidin Maxim** - *Creator* - [the_scrubs_fan](https://github.com/TheScrubsFan)
+
+
 
