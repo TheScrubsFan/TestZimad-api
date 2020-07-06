@@ -17,11 +17,11 @@ Start sidekiq.
 bundle exec sidekiq -r ./server.rb
 ```
 
-Start server. Available at http://localhost:4567
+Start server. Available at http://localhost:9292
 
 
 ```
-ruby server.rb 
+bundle exec rackup
 ```
 
 ## Authors
