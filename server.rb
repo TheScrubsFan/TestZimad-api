@@ -5,9 +5,8 @@ require 'sidekiq/web'
 require './workers/takeoff_worker'
 
 class App < Sinatra::Base
-  # TODO: change to /post
-  get '/takeoff' do
-    TakeoffWorker.perform_async
+  post '/takeoff' do
+    TakeoffWorker.perform_async params['id']
 
     status 202
   end

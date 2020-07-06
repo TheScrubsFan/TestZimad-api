@@ -5,7 +5,7 @@ class TakeoffWorker
   include Sidekiq::Worker
   include Takeoff
 
-  def perform()
-    takeoff
+  def perform(id)
+    takeoff id
   end
 end
