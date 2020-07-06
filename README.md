@@ -17,7 +17,7 @@ Start sidekiq.
 bundle exec sidekiq -r ./server.rb
 ```
 
-Start server. Available at http://localhost:9292/takeoff
+Start server. Available at http://localhost:4567
 
 
 ```
