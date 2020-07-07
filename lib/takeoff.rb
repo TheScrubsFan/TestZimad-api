@@ -2,7 +2,7 @@ require 'rest-client'
 
 module Takeoff
   MIN_TAKEOFF_TIME = 10
-  MAX_TAKEOFF_TIME = 30
+  MAX_TAKEOFF_TIME = 15
 
   def takeoff(id)
     sleep rand(MIN_TAKEOFF_TIME..MAX_TAKEOFF_TIME)
