@@ -23,6 +23,9 @@ Start server. Available at http://localhost:9292
 ```
 bundle exec rackup
 ```
+## Built With
+
+* Ruby - 2.6.0
 
 ## Authors
 
