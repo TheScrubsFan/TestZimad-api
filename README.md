@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Run bundle (for fish syntax).
+Run bundle.
 
 
 ```
