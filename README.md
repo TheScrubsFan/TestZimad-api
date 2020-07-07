@@ -6,7 +6,7 @@ Run bundle (for fish syntax).
 
 
 ```
-bundle install --path ~/.bundle --binstubs & git checkout bin/ & spring stop & spring binstub 
+bundle install
 ```
 
 ## Running
