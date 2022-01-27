@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    connection_pool (2.2.3)
+    connection_pool (2.2.5)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     http-accept (1.7.0)
@@ -16,18 +16,17 @@ GEM
     rack (2.2.3)
     rack-protection (2.0.8.1)
       rack
-    redis (4.1.4)
+    redis (4.5.1)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
     ruby2_keywords (0.0.2)
-    sidekiq (5.2.9)
-      connection_pool (~> 2.2, >= 2.2.2)
+    sidekiq (6.4.0)
+      connection_pool (>= 2.2.2)
       rack (~> 2.0)
-      rack-protection (>= 1.5.0)
-      redis (>= 3.3.5, < 4.2)
+      redis (>= 4.2.0)
     sinatra (2.0.8.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
